@@ -57,7 +57,7 @@
 \cos \alpha \cos \beta=\frac{1}{2}[\cos (\alpha+\beta)+\cos (\alpha-\beta)] \\
 \end{array}$
 
-* $和差化积公式 \\
+- $和差化积公式 \\
 \begin{array}{l}
 \cos x+\cos y=2 \cos \frac{x+y}{2} \cos \frac{x-y}{2} \\
 \cos x-\cos y=-2 \sin \frac{x+y}{2} \sin \frac{x-y}{2} \\
@@ -74,10 +74,10 @@
 
 - $万能公式 \\
   \begin{array}{l}
-\sin a=\frac{2 \tan \frac{a}{2}}{1+\tan ^{2} \frac{a}{2}} \\
-\cos a=\frac{1-\tan ^{2} \frac{a}{2}}{1+\tan ^{2} \frac{a}{2}} \\
-\tan a=\frac{2 \tan \frac{a}{2}}{1-\tan ^{2} \frac{a}{2}}
-\end{array}$
+  \sin a=\frac{2 \tan \frac{a}{2}}{1+\tan ^{2} \frac{a}{2}} \\
+  \cos a=\frac{1-\tan ^{2} \frac{a}{2}}{1+\tan ^{2} \frac{a}{2}} \\
+  \tan a=\frac{2 \tan \frac{a}{2}}{1-\tan ^{2} \frac{a}{2}}
+  \end{array}$
 
 ## 三角函数与向量
 
@@ -85,6 +85,28 @@
 - 向量 $a$ 在向量 $b$ 上的投影 $|a| \cos \langle a, b\rangle$
 - $a \perp b \Leftrightarrow a \cdot b=0 \Leftrightarrow |a| \cos \langle a, b\rangle=0$
 - 向量加减内积运算满足交换律，结合律，分配律
+
+特殊角的三角函数值
+
+| RAD               | DEG   | Sin                           | Cos                           | Tan                               | 求解方法                                                     | 注释                                                         |
+| ----------------- | ----- | ----------------------------- | ----------------------------- | --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 0                 | 0     | 0                             | 1                             | 0                                 | 显然                                                         |                                                              |
+| $\frac{1}{15}\pi$ | 12°   | 略                            | 略                            | 略                                | $\sin(\frac{\pi}{15})=\sin(\frac{\pi}{6}-\frac{\pi}{10})$    |                                                              |
+| $\frac{1}{12}\pi$ | 15°   | $\frac{\sqrt6-\sqrt2}{4}$     | $\frac{\sqrt6+\sqrt2}{4}$     | $2-\sqrt3$                        | 半个30°，<br />或$\sin(\frac{\pi}{12})=\sin(\frac{\pi}{3}-\frac{\pi}{4})$ | $x^2-4x+1=0$的解，也叫白金分割数                             |
+| $\frac{1}{10}\pi$ | 18°   | $\frac{\sqrt5-1}{4}$          | $\frac{\sqrt{10+2\sqrt5}}{4}$ | $\frac{1}{5}\sqrt{25-10\sqrt5}$   | 半个36°                                                      |                                                              |
+| $\frac{1}{9}\pi$  | 20°   | 略                            | 略                            | 略                                | $\sin({3\alpha})=3\sin{\alpha}-4\sin^3\alpha$                | [wolfram](https://mathworld.wolfram.com/TrigonometryAnglesPi9.html) |
+| $\frac{1}{8}\pi$  | 22.5° | $\frac{\sqrt{2-\sqrt2}}{2}$   | $\frac{\sqrt{2+\sqrt2}}{2}$   | $\sqrt2-1$                        | 半个45°                                                      | $x^2-2x-1=0$的解，也叫白银分割数                             |
+| $\frac{1}{6}\pi$  | 30°   | $\frac{1}{2}$                 | $\frac{\sqrt3}{2}$            | $\frac{\sqrt3}{3}$                | 半个等边三角形                                               |                                                              |
+| $\frac{1}{5}\pi$  | 36°   | $\frac{\sqrt{10-2\sqrt5}}{4}$ | $\frac{\sqrt5+1}{4}$          | $\sqrt{5-2\sqrt5}$                | $\sin({5\alpha})=5\sin{\alpha}-20\sin^3\alpha+16\sin^5{\alpha}$ | $\cos(\frac{\pi}{5})$为半个黄金分割数                        |
+| $\frac{1}{4}\pi$  | 45°   | $\frac{\sqrt2}{2}$            | $\frac{\sqrt2}{2}$            | 1                                 | 等腰直角三角形                                               |                                                              |
+| $\frac{3}{10}\pi$ | 54°   | $\frac{\sqrt5+1}{4}$          | $\frac{\sqrt{10-2\sqrt5}}{4}$ | $\frac{1}{5}\sqrt{25+10\sqrt{5}}$ | 参见36°                                                      |                                                              |
+| $\frac{1}{3}\pi$  | 60°   | $\frac{\sqrt3}{2}$            | $\frac{1}{2}$                 | $\sqrt3$                          | 等边三角形                                                   |                                                              |
+| $\frac{3}{8}\pi$  | 67.5  | $\frac{\sqrt{2+\sqrt2}}{2}$   | $\frac{\sqrt{2-\sqrt2}}{2}$   | $\sqrt2+1$                        | 参见22.5°                                                    |                                                              |
+| $\frac{2}{5}\pi$  | 72°   | $\frac{\sqrt5-1}{4}$          | $\frac{\sqrt{10+2\sqrt5}}{4}$ | $\sqrt{5+2\sqrt5}$                | 参见18°                                                      |                                                              |
+| $\frac{5}{12}\pi$ | 75°   | $\frac{\sqrt6+\sqrt2}{4}$     | $\frac{\sqrt6-\sqrt2}{4}$     | $2+\sqrt3$                        | 参见15°                                                      |                                                              |
+| $\frac{1}{2}\pi$  | 90°   | 1                             | 0                             | NA                                | 显然                                                         |                                                              |
+
+
 
 ## 解题技巧
 
